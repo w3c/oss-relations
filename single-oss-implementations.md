@@ -1,7 +1,7 @@
 The table below documents Web specifications whose implementation depends on a single shared library.
 
 | Specification | Single Implementation | Scope | Impact on implementation interop | License | Governance
-| --- | --- | --- | --- | ---
+| --- | --- | --- | --- | --- | ---
 | [WebRTC](https://w3c.github.io/webrtc-pc/webrtc.html) | [libwebrtc](https://webrtc.googlesource.com/src/+/refs/heads/master/docs/native-code/index.md) | [JSEP](http://rtcweb-wg.github.io/jsep/) | ? | [OS License + IP Rights Grant](https://webrtc.org/support/license) | Owned by Google, Mozilla, Opera, committing rights open to anyone with 10-20 accepted patches
 | [WebGL](https://www.khronos.org/registry/webgl/specs/latest/1.0/) | [ANGLE](https://github.com/google/angle) | Translate OpenGL to hardware-accelerated native APIs | ? | [OS License](https://github.com/google/angle/blob/master/LICENSE) | Owned by Google, contribution rules simiar to Chromium: [committer status can be requrested after 6 months of regular contributions](https://github.com/google/angle/blob/master/doc/ContributingCode.md#committer-status)
 | [ECMA-402](https://tc39.es/ecma402/), [css-text](https://drafts.csswg.org/css-text/) | [ICU](https://github.com/unicode-org/icu) | Unicode support | ? | OS license | Managed by a Unicode Technical Committee
